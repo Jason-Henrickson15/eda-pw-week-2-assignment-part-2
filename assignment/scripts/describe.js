@@ -29,7 +29,7 @@ if (number >= 2) {
 // we created a variable 'name' and assigned it the value of 'Dane'
 // we created a conditional where if the name is Mary the console says 'Hi, Mary!'
 // if name is not Mary the console will say 'how do you do?' instead since the name is different
-//
+// Since the name is not Mary the console will log 'How do you do?'
 
 //CODE
 /*
@@ -51,6 +51,9 @@ if (name === 'Mary') {
 // and the value of code will be doubled
 // we created another conditional where if the code is '250' the new value of 'secret' will be 'duper'
 // lastly we console logged the value of 'secret'
+// the first conditional will work and the value of code will be doubled
+// the second conditional will not work since the value of the doubled code is not equal to 250
+// since the second conditional did not fire, the variable 'secret' was never given a value so the console will log nothing
 
 //CODE
 /*
@@ -80,6 +83,10 @@ console.log(secret)
 // If 'isStudent' has a value of 'false' and age is less than 30, then the console will log 'What are your hobbies?'
 // If 'isStudent' has a value of 'true' the console will log 'Welcome to prime!'
 // If none of these statements are correct then the console will log 'How about the weather?'
+// In the first conditional, only the first statement is true so the console will log nothing
+// In the second conditional, neither statements are true so the second conditional will do nothing
+// In the third conditional, the statement is true so the console will log 'Welcome to prime!'
+// Since there were conditionals that were true above the last else conditional will not be logged
 
 //CODE
 /*
